@@ -26,8 +26,10 @@
             android:persistent="true" />
     </PreferenceCategory>
 
-    <Preference
-        android:key="pref_about"
-        android:title="@string/about" />
+    <PreferenceCategory>
+        <Preference
+            android:key="pref_about"
+            android:title="@string/about" />
+    </PreferenceCategory>
 
 </androidx.preference.PreferenceScreen>
